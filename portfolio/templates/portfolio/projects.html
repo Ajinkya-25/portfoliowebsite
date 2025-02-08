@@ -1,0 +1,113 @@
+{% extends 'portfolio/base.html' %}
+
+{% block title %}Projects | My Portfolio{% endblock %}
+
+{% block content %}
+<section class="projects-section">
+    <h1 class="section-title animate-slide-up">My Projects</h1>
+
+    <div class="projects-grid">
+        <div class="project-card animate-fade-in">
+    <div class="project-image">
+        <img src="/static/images/aidoctor.jpg" alt="AI Doctor Assistant">
+    </div>
+    <div class="project-content">
+        <h3>AI Doctor Assistant</h3>
+        <p>An AI-powered medical assistant capable of analyzing CT scans and X-ray images to predict diseases and suggest causes, precautions, and additional resources.</p>
+        <div class="tech-stack">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>OpenCV</span>
+            <span>Deep Learning</span>
+        </div>
+        <div class="project-links">
+            <a href="#" class="btn primary">GitHub</a>
+        </div>
+    </div>
+</div>
+
+
+        <div class="project-card animate-fade-in">
+    <div class="project-image">
+        <img src="/static/images/git.jpg" alt="Git Automation Tool">
+    </div>
+    <div class="project-content">
+        <h3>Git Automation Tool</h3>
+        <p>A Python program to automate Git operations, including creating repositories, pushing updates, and generating README files from user prompts.</p>
+        <div class="tech-stack">
+            <span>Python</span>
+            <span>Git</span>
+            <span>GitHub API</span>
+            <span>Automation</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/Ajinkya-25/gitcommit" class="btn primary">GitHub</a>
+
+        </div>
+    </div>
+</div>
+
+<div class="project-card animate-fade-in">
+    <div class="project-image">
+        <img src="/static/images/gan.jpg" alt="Text-to-Image GAN Model">
+    </div>
+    <div class="project-content">
+        <h3>Text-to-Image GAN Model</h3>
+        <p>A generative adversarial network (GAN) model designed and trained to convert textual descriptions into photorealistic images.</p>
+        <div class="tech-stack">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>GANs</span>
+            <span>Deep Learning</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/Ajinkya-25/text-to-image-model" class="btn primary">GitHub</a>
+
+        </div>
+    </div>
+</div>
+
+        <div class="project-card animate-fade-in">
+    <div class="project-image">
+        <img src="/static/images/smartwatch.jpg" alt="Smartwatch for Patient Monitoring">
+    </div>
+    <div class="project-content">
+        <h3>Smartwatch for Patient Monitoring</h3>
+        <p>A smartwatch prototype for continuous patient health monitoring (SpO2, heart rate, and temperature) with real-time data uploads to a cloud database accessible to doctors.</p>
+        <div class="tech-stack">
+            <span>C</span>
+            <span>ESP32</span>
+            <span>Sensors</span>
+            <span>Cloud Computing</span>
+            <span>IoT</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/Ajinkya-25/HealthHaven" class="btn primary">GitHub</a>
+
+        </div>
+    </div>
+</div>
+
+        <div class="project-card animate-fade-in">
+    <div class="project-image">
+        <img src="/static/images/aicity.jpg" alt="AI City Planner">
+    </div>
+    <div class="project-content">
+        <h3>AI City Planner</h3>
+        <p>An AI system combining the NEAT algorithm and deep Q-learning (DQN) for planning optimized urban layouts and infrastructure.</p>
+        <div class="tech-stack">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>Reinforcement Learning</span>
+            <span>NEAT</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/Ajinkya-25/NEAT-Q-City" class="btn primary">GitHub</a>
+
+        </div>
+    </div>
+</div>
+
+    </div>
+</section>
+{% endblock %}

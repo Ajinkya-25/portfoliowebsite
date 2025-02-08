@@ -1,0 +1,69 @@
+{% extends 'portfolio/base.html' %}
+
+{% block title %}Home | My Portfolio{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="animate-slide-up">Hello, I'm <span class="highlight">Ajinkya Bogle</span></h1>
+        <p class="animate-slide-up delay-1">AIML Engineer | Electronics Engineer | Robotics enthusiast</p>
+        <div class="cta-buttons animate-slide-up delay-2">
+            <a href="{% url 'projects' %}" class="btn primary">View My Work</a>
+            <a href="{% url 'contact' %}" class="btn primary">Contact Me</a>
+            <a href="https://drive.google.com/file/d/1S8l6Qf2xe6KGf-eKHEITtHN2zPqyFMHT/view?usp=sharing" class="btn primary">My Resume</a>
+            <!--there is also a class="btn secondary" for different button style-->
+        </div>
+    </div>
+</section>
+
+<section class="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-code"></i>
+            <h3>Python</h3>
+
+        </div>
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-laptop-code"></i>
+            <h3>MatLab</h3>
+
+        </div>
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-database"></i>
+            <h3>Django</h3>
+
+        </div>
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-robot"></i>
+            <h3>Robotics</h3>
+
+        </div>
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-brain"></i>
+            <h3>AI/ML</h3>
+
+        </div>
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-cogs"></i>
+            <h3>Electronics</h3>
+
+        </div>
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-code"></i>
+            <h3>C++</h3>
+
+        </div>
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-cogs"></i>
+            <h3>Embedded Systems</h3>
+
+        </div>
+        <div class="skill-card animate-fade-in">
+            <i class="fas fa-database"></i>
+            <h3>SQL</h3>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
